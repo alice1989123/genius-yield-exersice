@@ -12,6 +12,7 @@ function App() {
           <div className="highlight2"></div>
 
           <div className="highlight"></div>
+          <div className="selling">Selling</div>
           <ChartTVL />
           <ChartVolume />
           <NavBar />
