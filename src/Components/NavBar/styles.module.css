@@ -1,0 +1,184 @@
+/* Variables */
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --vulcan: rgba(17, 24, 32, 1);
+  --mirage-2: rgba(20, 29, 49, 1);
+  --mirage: rgba(21, 31, 51, 1);
+  --big-stone: rgba(22, 32, 54, 1);
+  --cloud-burst: rgba(32, 46, 77, 0.298);
+  --rhino: rgba(50, 63, 98, 1);
+  --sea-serpent: rgba(89, 234, 208, 1);
+  --wild-blue-yonder: rgba(119, 134, 177, 1);
+  --periwinkle-gray: rgba(193, 206, 241, 1);
+  --strawberry: rgba(238, 89, 138, 1);
+  --white: rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 13px;
+  --font-size-xs: 14px;
+  --font-size-s: 15px;
+  --font-size-m: 16px;
+  --font-size-l: 32px;
+  --font-size-xl: 43px;
+
+  --font-family-manrope: "Manrope";
+  --font-family-mulish: "Mulish";
+  --font-family-prompt: "Prompt";
+}
+
+.navContainer {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  align-items: flex-start;
+  display: flex;
+  height: 36px;
+  min-width: 194px;
+}
+
+.lineNav {
+  position: static;
+  top: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.union {
+  height: 37px;
+  margin-top: -0.74px;
+  width: 36px;
+}
+
+.logo {
+  margin-left: 1rem;
+}
+
+.groupContainer {
+  height: 27px;
+  margin-left: 4px;
+  margin-top: 1.93px;
+  position: relative;
+  width: 155px;
+}
+
+.logo2 {
+  height: 27px;
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 151px;
+}
+
+.logo3 {
+  height: 27px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 151px;
+}
+
+.navigationBar {
+  align-items: center;
+  display: flex;
+  height: 26px;
+  min-width: 305px;
+  position: relative;
+}
+.navigationBar li {
+  display: flex;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  color: var(--periwinkle-gray);
+  font-family: var(--font-family-mulish);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-style: normal;
+  list-style: none;
+}
+
+.selectedPage {
+  color: #ffffff !important;
+
+  background-image: url("../../../public/Vector\ 30.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.menuLink {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 26px;
+  width: 41px;
+}
+
+.link {
+  letter-spacing: 0;
+  min-height: 19px;
+  min-width: 41px;
+}
+
+.vector30 {
+  height: 1px;
+  margin-left: 0.5px;
+  margin-top: 7px;
+  width: 1px;
+}
+
+.accountDetails {
+  display: flex;
+  flex-direction: row;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  background: rgba(17, 24, 32, 0.25);
+  border-radius: 100px;
+
+  font-size: 14px;
+  line-height: 23px;
+  /* identical to box height, or 164% */
+
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+
+  color: #ffffff;
+  margin-right: 2rem;
+}
+
+.balanceContainer {
+  display: flex;
+  --margin-left: 1rem;
+}
+
+.balanceContainer div {
+  margin-left: 0.5rem;
+}
+
+.addressContainer {
+  display: flex;
+  border-radius: 100px;
+  background: #171120;
+  padding: 0.4rem;
+  margin-left: 1rem;
+}
+
+.addressContainer div {
+  margin-right: 0.5rem;
+}
+
+.addressContainer img {
+  size: 100px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:600|Mulish:400,700,600,800|Prompt:400");
