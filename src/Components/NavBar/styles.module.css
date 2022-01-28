@@ -1,39 +1,11 @@
-/* Variables */
-
-:root {
-  --black: rgba(0, 0, 0, 1);
-  --vulcan: rgba(17, 24, 32, 1);
-  --mirage-2: rgba(20, 29, 49, 1);
-  --mirage: rgba(21, 31, 51, 1);
-  --big-stone: rgba(22, 32, 54, 1);
-  --cloud-burst: rgba(32, 46, 77, 0.298);
-  --rhino: rgba(50, 63, 98, 1);
-  --sea-serpent: rgba(89, 234, 208, 1);
-  --wild-blue-yonder: rgba(119, 134, 177, 1);
-  --periwinkle-gray: rgba(193, 206, 241, 1);
-  --strawberry: rgba(238, 89, 138, 1);
-  --white: rgba(255, 255, 255, 1);
-
-  --font-size-xxs: 13px;
-  --font-size-xs: 14px;
-  --font-size-s: 15px;
-  --font-size-m: 16px;
-  --font-size-l: 32px;
-  --font-size-xl: 43px;
-
-  --font-family-manrope: "Manrope";
-  --font-family-mulish: "Mulish";
-  --font-family-prompt: "Prompt";
-}
-
 .navContainer {
   position: relative;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  width: 1440px;
+  height: 83px;
+  margin-bottom: 22px;
 }
 
 .logo {
@@ -58,7 +30,8 @@
 }
 
 .logo {
-  margin-left: 1rem;
+  margin-top: 25px;
+  margin-left: 28px;
 }
 
 .groupContainer {
@@ -69,42 +42,38 @@
   width: 155px;
 }
 
-.logo2 {
-  height: 27px;
-  left: 4px;
-  position: absolute;
-  top: 0;
-  width: 151px;
-}
-
-.logo3 {
-  height: 27px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 151px;
-}
-
 .navigationBar {
-  align-items: center;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 305px;
   height: 26px;
-  min-width: 305px;
-  position: relative;
+  left: calc(50% - 305px / 2 - 1.05px);
+  top: 31px;
 }
 .navigationBar li {
   display: flex;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  position: static;
+  width: 48px;
+  height: 26px;
+  left: 257px;
+  top: 0px;
+  margin-left: 51px;
 
-  color: var(--periwinkle-gray);
-  font-family: var(--font-family-mulish);
-  font-size: var(--font-size-s);
-  font-weight: 600;
+  font-family: Mulish;
   font-style: normal;
-  list-style: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Design/Gray */
+
+  color: #c1cef1;
 }
 
 .selectedPage {
@@ -136,6 +105,7 @@
 }
 
 .accountDetails {
+  margin-top: 35px;
   display: flex;
   flex-direction: row;
   font-family: Mulish;
@@ -150,35 +120,44 @@
 
   display: flex;
   align-items: center;
-  padding: 0.3rem;
+  padding: 0.5px;
 
   color: #ffffff;
-  margin-right: 2rem;
+  margin-right: 42px;
 }
 
 .balanceContainer {
+  position: static;
   display: flex;
-  --margin-left: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 33px;
+  left: 5px;
+  top: 5.5px;
 }
 
 .balanceContainer div {
-  margin-left: 0.5rem;
+  margin-left: 10px;
 }
 
 .addressContainer {
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 100px;
   background: #171120;
-  padding: 0.4rem;
-  margin-left: 1rem;
+  padding: 10px;
+  width: 146.12px;
+  height: 36px;
 }
 
 .addressContainer div {
-  margin-right: 0.5rem;
+  margin-right: 6px;
 }
 
 .addressContainer img {
-  size: 100px;
+  size: 200px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Manrope:600|Mulish:400,700,600,800|Prompt:400");

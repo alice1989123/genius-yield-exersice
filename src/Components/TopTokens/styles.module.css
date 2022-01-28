@@ -266,9 +266,9 @@
 }
 .tokenData img {
   position: relative;
-  top: 3px;
-  width: 15px;
-  height: 15px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
   margin-right: 6px;
 }
 .tokenData div:nth-child(3) {

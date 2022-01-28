@@ -82,10 +82,17 @@ function TokenRow({
 }
 
 function PriceSign({ priceChange }) {
-  if (priceChange >= 0) {
+  if (priceChange > 0) {
     return (
       <div>
         {<img src="../../Vector 240 (Stroke).png" />}
+        {`${(Math.round(Math.abs(priceChange) * 100) / 100).toFixed(2)}%`}
+      </div>
+    );
+  }
+  if (priceChange == 0) {
+    return (
+      <div>
         {`${(Math.round(Math.abs(priceChange) * 100) / 100).toFixed(2)}%`}
       </div>
     );

@@ -32,20 +32,7 @@ export default function NavBar() {
 function Logo() {
   return (
     <div className={styles.logo}>
-      <img
-        className={styles.union}
-        src="https://anima-uploads.s3.amazonaws.com/projects/61eb654559085a6271779c70/releases/61f04ada3c421ff863e99416/img/union@2x.svg"
-      />
-      <div className={styles.groupContainer}>
-        <img
-          className={styles.logo2}
-          src="https://anima-uploads.s3.amazonaws.com/projects/61eb654559085a6271779c70/releases/61f046f534fb822b11239f1d/img/group-248@2x.svg"
-        />
-        <img
-          className={styles.logo3}
-          src="https://anima-uploads.s3.amazonaws.com/projects/61eb654559085a6271779c70/releases/61f046f534fb822b11239f1d/img/group-249@2x.svg"
-        />
-      </div>
+      <img src="../../Logo.png" />
     </div>
   );
 }

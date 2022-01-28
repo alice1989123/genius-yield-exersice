@@ -11,7 +11,8 @@
  */
   height: 2727px;
 
-  width: 100%;
+  width: 1440px;
+  background-color: black;
 }
 
 * {
@@ -52,11 +53,7 @@
   left: -616.85px;
   top: -435.08px;
 
-  background: radial-gradient(
-    50% 50% at 50% 50%,
-    #406395 0%,
-    rgba(43, 74, 119, 0.35) 51.65%,
-    rgba(5, 8, 16, 0) 100%
-  );
-  opacity: 0.9;
+  background-image: url("../public/Highlight.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
 }

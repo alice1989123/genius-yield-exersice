@@ -10,11 +10,6 @@ function TradeOverView({ vol, volChange, fee, feeChange, tVL, tVLChange }) {
         {Parameter("Volume 24H:", vol, volChange)}
         {Parameter("Fees 24H:", fee, feeChange)}
         {Parameter("TVL:", tVL, tVLChange)}
-
-        {/* {Parameter("Volume 24H:", vol, volChange)}
-    {Parameter("Fees 24H:", fee, feeChange)}
-
-    {Parameter("TVL:", tVL, tVLChange)} */}
       </div>
     </>
   );
@@ -27,7 +22,10 @@ function Parameter(label, value, change) {
         {label} <em>{"$" + value}</em>
       </p>
       <div className={change >= 0 ? styles.changePos : styles.changeNeg}>
-        <img src={change >= 0 ? "Vector 239.png" : "Vector 238.png"}></img>
+        <img
+          src={change >= 0 ? "Vector 239.png" : "Vector 238.png"}
+          style={change >= 0 ? { paddingBottom: "1px" } : { padding: "0px" }}
+        ></img>
         {Math.abs(change)}%
       </div>
     </div>
